@@ -8,7 +8,7 @@ namespace TailSpin.SpaceGame.Web.Models
     public abstract class Model
     {
         // The value that uniquely identifies this object.
-        //Esta es una prueba de diseño 23
+        //Rama errores
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
     }
